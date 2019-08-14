@@ -1,0 +1,13 @@
+<html>
+
+<body>
+  <h1>Madlibs</h1>
+  <form action="/story">
+    {% for word in word_list %}
+    <p>{{ word }}: <input name="{{ word }}">
+    {% endfor %}
+    <p><button type="submit">Submit</button>
+  </form>
+</body>
+
+</html>
