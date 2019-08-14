@@ -3,8 +3,12 @@
 <body>
   <h1>Madlibs</h1>
   <form action="/story">
+    <!-- can also add class instance, then you can template in and use instance methods in html 
+    -->
+    <p>{% block story %}{% endblock %}</p>
+
     {% for word in word_list %}
-    <p>{{ word }}: <input name="{{ word }}">
+    <p>{{ word }}:</p> <input name="{{ word }}">
     {% endfor %}
     <p><button type="submit">Submit</button>
   </form>

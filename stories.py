@@ -43,4 +43,5 @@ story = Story(
     """Once upon a time in a long-ago {place}, there lived a large {adjective} {noun}. It loved to {verb} {plural_noun}."""
 )
 
-ans = {"place": "SF", "adjective": "dark", "noun": "moon", "verb": "pounce", "plural_noun": "mice"}
+ans = {"place": "SF", "adjective": "dark", "noun": "moon",
+       "verb": "pounce", "plural_noun": "mice"}
